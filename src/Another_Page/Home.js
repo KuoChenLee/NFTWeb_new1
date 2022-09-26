@@ -768,7 +768,7 @@ function Home(){
               </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <iframe src="https://kuochenlee.github.io/background_9/" width="2200" height="720"></iframe>
+                <iframe  src="https://kuochenlee.github.io/background_9/" width="2200" height="720"></iframe>
                 {/* <img src='../public/image/p1.png' width="2200" height="720"></img> */}
               <Carousel.Caption>
                 <h3 className='text1'>DEFFERENT ATTRUBUTE</h3>
@@ -792,8 +792,9 @@ function Home(){
               <div className="alert1">
               <Col>
               <h2 className='text2'>How to get Robots?</h2>
+              <div className='scale-in-top'>
                 <Alert className="alert2" variant="secondary"> 
-                  <div >
+                  
                       <h1 className='text3'>
                         Get Your Own Robots
                       </h1>
@@ -810,8 +811,9 @@ function Home(){
                       <a href='http://localhost:3000/Robot_Shop'>
                       <button className='button2'>Go to the shop ➝</button>
                       </a>
-                  </div>  
+                   
                 </Alert>
+                </div> 
               </Col>
               <Col>
                  <iframe src="https://kuochenlee.github.io/Robot_8/" width="700" height="680"/>
@@ -827,7 +829,7 @@ function Home(){
           <h1>About</h1>
             <Row>
              <Col>
-                <iframe src="https://kuochenlee.github.io/Blind_Box_picture/" width="560" height="660"/>
+                <iframe className='fade-in-top' src="https://kuochenlee.github.io/Blind_Box_picture/" width="560" height="660"/>
               </Col>
               <Col>
                 

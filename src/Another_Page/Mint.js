@@ -785,10 +785,11 @@ import {
 		<div className='dvi1'>
 			 {/* Mint button 合約 */}
 			 <div className='div6'>
-				<Container>
+				<div >
+				<Container className='div10'>
 					<Col>
-						<h1>Mint Blind Box</h1>
-						<h6>
+						<h1 className='text2'>Mint Blind Box</h1>
+						<h6 className='text2'>
 						And you can get blind box
 						</h6>
 					</Col>
@@ -805,8 +806,8 @@ import {
                         {/* disabled={notisClick} */}
 					</Col>
 					<Col>
-						<h1>Open your blind box.🔑</h1>
-						<h6>
+						<h1 className='text2'>Open your blind box.🔑</h1>
+						<h6 className='text2'>
 						You can open the blind box.
 						</h6>
 					</Col>
@@ -815,9 +816,10 @@ import {
                         {/* disabled={notisClick} */}
 					</Col>
 					<Col>
-						<h6>If you want to see your NFT ,Click <a href='https://testnets.opensea.io/zh-TW'>OpenSea</a></h6>
+						<h6 className='text2'>If you want to see your NFT ,Click <a href='https://testnets.opensea.io/zh-TW'>OpenSea</a></h6>
 					</Col>
 				</Container>
+				</div>
       		</div>
 		</div>
 	);
