@@ -27,7 +27,16 @@ import {
   function Robot_Shop(){
 	return(
 		<div className='dvi1'>
-			
+			<div className='div12'>
+			  <br/>
+			  	<a href='http://localhost:3000/Robot_Shop'>
+                    <button className='button4'>Go to the shop ➝</button>
+            	</a>
+			  	<br/>
+				<strong className='text4'>STUST UNIVERSE ROBOTS</strong>
+				
+				
+			</div>
 		</div>
 	);
 }

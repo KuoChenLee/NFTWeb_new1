@@ -46,6 +46,16 @@ import React,{useState} from 'react';
                     
         </Row>
 			</Container>
+      <div className='div12'>
+			  <br/>
+			  	<a href='http://localhost:3000/Robot_Shop'>
+                    <button className='button4'>Go to the shop ➝</button>
+            	</a>
+			  	<br/>
+				<strong className='text4'>STUST UNIVERSE ROBOTS</strong>
+				
+				
+			</div>
 		</div>
 	);
 }

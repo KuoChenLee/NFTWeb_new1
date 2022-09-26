@@ -808,13 +808,13 @@ function App() {
 					</Container>
 
 			</Navbar>
-			{/* <br/> */}
+			
 
 				<Routes>
 					
 					<Route exact path="*"  element={<Home/>}/>
 					<Route path="/Attribute" element={<Attribute/>} />
-					<Route path="/Mint" element={<Mint/>} />
+					<Route path="/Mint" element={<Mint address={address} notisClick={notisClick} isClick={isClick} contractAddr={contractAddr} abi={abi}/>} />
 					<Route path="/Empowerment" element={<Empowerment/>} />
 					<Route path="/Robot_Shop" element={<Robot_Shop/>} />
 				</Routes>
