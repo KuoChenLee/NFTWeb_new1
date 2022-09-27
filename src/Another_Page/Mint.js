@@ -1,7 +1,10 @@
 import '../App';
 import {Button,Container,Row,Col,Navbar,Nav,Carousel,Accordion,Table,iframe,Image,Figure} from 'react-bootstrap';
 import Alert from 'react-bootstrap/Alert';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+import '../Another_Page_Css/Mint.css';
+
 import {  ethers } from "ethers";
 import Web3Modal from "web3modal";
 import React,{useState} from 'react';
@@ -39,36 +42,6 @@ import {
   const [isClick,setClick]=useState(props.isClick);
   const [notisClick,setNotClick]=useState(props.notisClick);
   const shortenAddr=addr=>addr.slice(0,4)+"..."+addr.slice(-4);//取前四後四的Addr
-//   function myFunction() {
-//     let elem = document.querySelectorAll(".drop-down");
-//     elem.forEach(element=>{
-//         element.addEventListener("click", e =>{
-//             console.log(e.target.innerHTML);
-//         });
-//     })
-//   }
-
-//   myFunction();
-
-    // async function init(){
-    //   const instance = await web3Modal.connect();
-    //   const provider = new ethers.providers.Web3Provider(instance);
-    //   const signer = provider.getSigner();
-    //   const addr=await signer.getAddress();
-    //   const _contract=new ethers.Contract(contractAddr,abi,signer);
-    //   setContract(_contract);
-    //   window.contract=_contract;
-    //   setEns(await provider.lookupAddress(addr));
-    //   console.log(addr);
-    //   setAddress(addr);
-    //   const bal=await provider.getBalance(addr);
-    //   setBalance(ethers.utils.formatEther( bal )); 
-    //   setClick((isClick) => !isClick);
-    //   setNotClick((notisClick)=>!notisClick);
-    // }
-
-    
-    
   //mint 盲盒處理 
   async function mint(){
     const mintPrice = await window.contract.mintPrice();
