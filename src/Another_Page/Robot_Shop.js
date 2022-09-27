@@ -1,7 +1,8 @@
 import '../App';
 import {Button,Container,Row,Col,Navbar,Nav,Carousel,Accordion,Table,iframe,Image,Figure} from 'react-bootstrap';
 import Alert from 'react-bootstrap/Alert';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import '../Another_Page_Css/Robot_Shop.css';
 import {  ethers } from "ethers";
 import Web3Modal from "web3modal";
 import React,{useState} from 'react';
@@ -26,16 +27,10 @@ import {
 
   function Robot_Shop(){
 	return(
-		<div className='dvi1'>
+		<div className='div1'>
 			<div className='div12'>
-			  <br/>
-			  	<a href='http://localhost:3000/Robot_Shop'>
-                    <button className='button4'>Go to the shop ➝</button>
-            	</a>
 			  	<br/>
 				<strong className='text4'>STUST UNIVERSE ROBOTS</strong>
-				
-				
 			</div>
 		</div>
 	);
